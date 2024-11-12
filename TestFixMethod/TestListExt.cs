@@ -96,5 +96,27 @@ public class TestListExt
         CollectionAssert.AreEqual(data, expected);
         CollectionAssert.AreEqual(dataInt, expectedInt);
     }
+
+    [TestMethod]
+    public void TestMoreAndLess()
+    {
+        var dataa = ListExtMethods.ListFilter.String.LessThan(new List<string> { "un", "deux", "trois", "quatre" }, 5);
+        var data = ListExtMethods.ListFilter.String.MoreThan(new List<string> { "un", "deux", "trois", "quatre" }, 4);
+        var expected = new List<string> { "trois", "quatre" };
+        var expectedd = new List<string> { "un", "deux" };
+        CollectionAssert.AreEqual(data, expected);
+        CollectionAssert.AreEqual(dataa, expectedd);
+    }
+    
+    [TestMethod]
+    public void TestMoreAndLessOrEqual()
+    {
+        var dataa = ListExtMethods.ListFilter.String.LessThanOrEqual(new List<string> { "un", "deux", "trois", "quatre" }, 5);
+        var data = ListExtMethods.ListFilter.String.MoreThanOrEqual(new List<string> { "un", "deux", "trois", "quatre" }, 4);
+        var expected = new List<string> { "deux", "trois", "quatre" };
+        var expectedd = new List<string> { "un", "deux", "trois" };
+        CollectionAssert.AreEqual(data, expected);
+        CollectionAssert.AreEqual(dataa, expectedd);
+    }
     
 }

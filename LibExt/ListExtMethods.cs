@@ -102,9 +102,9 @@ public static class ListExtMethods
                 return list.Where(item => item.ToString().Contains(contrainte)).ToList();
             }
             
-            public static List<int> MoreThanOrEqual(List<int> list, int moreThan)
+            public static List<int> MoreThanOrEqual(List<int> list, int moreThanOrEqual)
             {
-                return list.Where(item => item.ToString().Length >= moreThan).ToList();
+                return list.Where(item => item.ToString().Length >= moreThanOrEqual).ToList();
             }
             
             public static List<int> MoreThan(List<int> list, int moreThan)
@@ -112,14 +112,14 @@ public static class ListExtMethods
                 return list.Where(item => item.ToString().Length > moreThan).ToList();
             }
             
-            public static List<int> LessThan(List<int> list, int moreThan)
+            public static List<int> LessThan(List<int> list, int lessThan)
             {
-                return list.Where(item => item.ToString().Length < moreThan).ToList();
+                return list.Where(item => item.ToString().Length < lessThan).ToList();
             }
             
-            public static List<int> LessThanOrEqual(List<int> list, int moreThan)
+            public static List<int> LessThanOrEqual(List<int> list, int lessThanOrEqual)
             {
-                return list.Where(item => item.ToString().Length <= moreThan).ToList();
+                return list.Where(item => item.ToString().Length <= lessThanOrEqual).ToList();
             }
             
         }
