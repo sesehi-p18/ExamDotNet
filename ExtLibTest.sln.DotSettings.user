@@ -1,0 +1,29 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0022431d_002Da51d_002D46b9_002D9da5_002D728b7cdb50a7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExtMethods #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestExtMethods&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestDateTimeExt&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5766ce97_002Da07c_002D4d62_002Da4b1_002Dd298d01c778b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExtMethods" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestExtMethods&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestDateTimeExt&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=966d1228_002D6b69_002D4782_002D95cf_002D719ae578a6c6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExtMethods #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestExtMethods&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestDateTimeExt&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestListExt&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e8062829_002Da24b_002D4ea0_002Da51a_002Df0660c014c4f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from UnitTest1.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestExtMethods&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestDateTimeExt&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestListExt&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

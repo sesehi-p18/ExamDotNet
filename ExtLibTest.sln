@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFixMethod", "TestFixMethod\TestFixMethod.csproj", "{FDC6913C-EB40-4B26-9794-32EE649A0DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibExt", "LibExt\LibExt.csproj", "{CDBCF03F-28DC-4F46-89A8-59AF00D4B68A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDC6913C-EB40-4B26-9794-32EE649A0DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC6913C-EB40-4B26-9794-32EE649A0DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC6913C-EB40-4B26-9794-32EE649A0DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC6913C-EB40-4B26-9794-32EE649A0DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBCF03F-28DC-4F46-89A8-59AF00D4B68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBCF03F-28DC-4F46-89A8-59AF00D4B68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBCF03F-28DC-4F46-89A8-59AF00D4B68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBCF03F-28DC-4F46-89A8-59AF00D4B68A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
