@@ -1,41 +1,36 @@
+using LibExt;
+
 namespace TestFixMethod;
 
 [TestClass]
 public class TestExtMethods
 {
     [TestMethod]
-    public void TestLeft()
+    public void TestBooleanToInt()
     {
-        var data= LibExt.TestExtMethods.left(3,"testText");
-        Assert.AreEqual(data, "tes");
+        bool a = true;
+        bool b = false;
+        Assert.AreEqual(1, a.BoolToInt());
+        Assert.AreEqual(0, b.BoolToInt());
     }
 
     [TestMethod]
-    public void TestRight()
+    public void TestSnakeCase()
     {
-        var data= LibExt.TestExtMethods.right(3,"testText");
-        Assert.AreEqual(data, "ext");
+        var s = "Lorem IPSUM dolor Sit Amet";
+        var expected1 = "lorem_ipsum_dolor_sit_amet";
+        var expected2 = "lorem-ipsum-dolor-sit-amet";
+        Assert.AreEqual(expected1, s.SnakeCase());
+        Assert.AreEqual(expected2, s.SnakeCase("-"));
     }
     
     [TestMethod]
-    public void TestEllipsis()
+    public void TestFullTrim()
     {
-        var data= LibExt.TestExtMethods.ellipsis(3,"***");
-        Assert.AreEqual(data, "Alp***");
+        var s = " lorem ipsum dolor sit amet ";
+        var expected = "lorem ipsum dolor sit amet";
+
+        Assert.AreEqual(expected, s.CustomTrim());
     }
-    
-    [TestMethod]
-    public void TestFillLeft()
-    {
-        var data= LibExt.TestExtMethods.fillLeft("Indi4", 8,'*');
-        Assert.AreEqual(data, "***Indi4");
-    }
-    
-    [TestMethod]
-    public void TestFillRight()
-    {
-        var data= LibExt.TestExtMethods.FillRight("Indi4", 8,'*');
-        Assert.AreEqual(data, "Indi4***");
-    }
-    
+
 }

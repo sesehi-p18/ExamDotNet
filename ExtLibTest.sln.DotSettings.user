@@ -1,29 +1,22 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0022431d_002Da51d_002D46b9_002D9da5_002D728b7cdb50a7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExtMethods #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestExtMethods&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestDateTimeExt&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAssert_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F053cba69424c47858472194d509c3cdc12bb0_003F1d_003F78cbfdc1_003FAssert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AEnumerable_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Faa449a2dba6749d3822db4cbdacc93e664c00_003F2d_003Fde594168_003FEnumerable_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=639e4272_002D56b4_002D4eac_002D8d26_002D4a0b5ccd2262/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5766ce97_002Da07c_002D4d62_002Da4b1_002Dd298d01c778b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExtMethods" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f8430618_002D9e22_002D4260_002D8e94_002Dfe182930568a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestExtMethods&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestDateTimeExt&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=966d1228_002D6b69_002D4782_002D95cf_002D719ae578a6c6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExtMethods #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestExtMethods&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestDateTimeExt&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestListExt&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestLinq&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e8062829_002Da24b_002D4ea0_002Da51a_002Df0660c014c4f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from UnitTest1.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestExtMethods&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestDateTimeExt&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::FDC6913C-EB40-4B26-9794-32EE649A0DDB::net8.0::TestFixMethod.TestListExt&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	</wpf:ResourceDictionary>
